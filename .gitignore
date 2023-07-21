@@ -398,3 +398,7 @@ FodyWeavers.xsd
 *.sln.iml
 .gitattributes
 .gitattributes
+.gitattributes
+.DS_Store
+.gitattributes
+.gitignore
