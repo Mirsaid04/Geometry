@@ -38,8 +38,8 @@
             }
             else 
             {
-                System.Console.WriteLine("Sorry,You entered invalid input, try again later\n");
-                Console.WriteLine("/\\ <---Thank you---> /\\\n");
+                System.Console.WriteLine("Sorry,You entered invalid input, try again later");
+                Console.WriteLine("\n/\\ <---Thank you---> /\\\n");
             }
         } 
     } 
