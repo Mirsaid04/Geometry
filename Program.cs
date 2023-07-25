@@ -30,7 +30,6 @@
                 decimal lenght=Convert.ToDecimal(Console.ReadLine());
 
                 decimal result=(breadth+lenght)*2;
-
                 Console.WriteLine("\nIt is calculating now ...\n");
 
                 Console.WriteLine($"The perimeter of Rectangle is {result}cm\n");
