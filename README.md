@@ -4,16 +4,19 @@
 
  ## Overview 
 
- Here are quick explanations which I used in `Program.cs` :
+ Here are quick explanations which I used in `Program.cs `file :
 
  * Console input/output
- * `If,else ` statement
- * Converting Data types
+ * `switch ` statement
+ * Converting data types
 
- ## Triangle Calculation ->
+## Demo
 
- ![](./Assets/Jul-21-2023%2010-05-32.gif)
+ ### Triangle Calculation ->
 
- ## Rectangle Calculation ->
- ![](./Assets/Gif%202.gif)
+ ![](./Assets/triangle%20gif.gif)
+
+ ### Rectangle Calculation ->
+ 
+ ![](./Assets/triagngle%20gif.gif)
 
