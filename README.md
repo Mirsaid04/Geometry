@@ -37,11 +37,11 @@
 
  V1.0
 
- This [versionv1.0]() was created to solve small problems and it could also run only one time. Then I tried to create non stop working in new version, are you ready to see it ...?
+ This [versionv1.0](https://github.com/Mirsaid04/Geometry/tree/releases/v1.0) was created to solve small problems and it could also run only one time. Then I tried to create non stop working in new version, are you ready to see it ...?
 
  V2.0 
 
-This [version/v2.0]() is the ready framework to calculate the circle of Triangle and Perimeter of Rectangle . So it works continually, even if you don't click "n", it never stops to calculate again and again.
+This [version/v2.0](https://github.com/Mirsaid04/Geometry/tree/releases/v2.0) is the ready framework to calculate the circle of Triangle and Perimeter of Rectangle . So it works continually, even if you don't click "n", it never stops to calculate again and again.
 
 To get full information , please click the green word!!!
 
