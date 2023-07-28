@@ -4,6 +4,8 @@
     { 
         static void Main() 
         { 
+            try
+            {
             string yesOrno=(""); 
             do{
             Console.WriteLine("\nHello, Welcome to my project which can calculate the circle of Area and also Perimeter too");
@@ -46,6 +48,12 @@
             Console.Write("Do you want to continue [y/n]: "); 
             yesOrno=Console.ReadLine()!; 
             }while(yesOrno=="y");
+            }
+            catch(FormatException FormatException)
+            {
+                Console.WriteLine("Opps,We could not convert your input value.");
+                Console.WriteLine("Look like the value you provided is not integer.");
+            }
         } 
     } 
 }
