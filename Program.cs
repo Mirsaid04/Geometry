@@ -6,12 +6,9 @@
         { 
             try
             {
-            string yesOrno=(""); 
+                string yesOrno=(""); 
             do{
-            Console.WriteLine("\nHello, Welcome to my project which can calculate the circle of Area and also Perimeter too");
-            Console.WriteLine("Do you want to know the circle of Tringle or primeter of Rectangle?");
-            Console.WriteLine("1.Triangle\n2.Rectangle");
-
+                ShowMenu();
             int choosedNumber=int.Parse(Console.ReadLine()!);
             switch(choosedNumber)
             {
@@ -62,6 +59,14 @@
             {
                 Console.WriteLine("Opps,something went wrong , contact support");
             }
-        } 
+        }
+
+        public static void ShowMenu()
+        {
+            Console.WriteLine("\nHello, Welcome to my project which can calculate the circle of Area and also Perimeter too");
+            Console.WriteLine("Do you want to know the circle of Tringle or primeter of Rectangle?");
+            Console.WriteLine("1.Triangle\n2.Rectangle");
+        }
+        
     } 
 }
