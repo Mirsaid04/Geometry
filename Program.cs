@@ -1,4 +1,6 @@
-﻿namespace GEOMETRY 
+﻿using Microsoft.VisualBasic;
+
+namespace GEOMETRY 
 { 
     class Program 
     { 
@@ -9,7 +11,7 @@
                 string yesOrno=(""); 
             do{
                 ShowMenu();
-            int choosedNumber=int.Parse(Console.ReadLine()!);
+             int choosedNumber=int.Parse(Console.ReadLine()!);
             switch(choosedNumber)
             {
                 case 1 : 
@@ -20,7 +22,7 @@
                     double Result=Math.PI*radius*radius; 
  
                     Console.WriteLine($"The circle of Triangle is {Result}\n"); 
-                    Console.WriteLine("---Thank you---\n");
+                    Report();
                     break;
             
                     case 2:
@@ -34,15 +36,16 @@
                     Console.WriteLine("\nIt is calculating now ...\n");
 
                     Console.WriteLine($"The perimeter of Rectangle is {result}cm\n");
-                    Console.WriteLine("---Thank you---\n");
+                    Report();
                     break;
 
                 default :
                     Console.WriteLine("Sorry,You entered invalid input, try again later");
-                    Console.WriteLine("\n---Thank you---\n");
+                    Report();
                     break;
             }
-            Console.Write("Do you want to continue [y/n]: "); 
+
+            LastReport();
             yesOrno=Console.ReadLine()!; 
             }while(yesOrno=="y");
             }
@@ -67,6 +70,17 @@
             Console.WriteLine("Do you want to know the circle of Tringle or primeter of Rectangle?");
             Console.WriteLine("1.Triangle\n2.Rectangle");
         }
+
+        public static void LastReport()
+        {
+            Console.Write("Do you want to continue [y/n]: "); 
+        }
+
+        public static void Report()
+        {
+            Console.WriteLine("---Thank you---\n");
+        }
+        
         
     } 
 }
